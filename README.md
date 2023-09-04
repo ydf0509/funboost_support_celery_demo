@@ -9,8 +9,8 @@ funboost能支持将celery整体作为 funboost的消息队列,
 使用户既能享受funboost的极简api和配置方式,又能利用celery的调度核心来执行用户函数
 ```
 
+不规则的celery目录结果如下,使用funboost操作celery比直接操作celery,代码大大简化
 ```
-
 D:\CODES\FUNBOOST_SUPPORT_CELERY_DEMO
 ├─.idea
 │  └─inspectionProfiles
