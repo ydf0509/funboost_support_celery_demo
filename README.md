@@ -53,7 +53,10 @@ aaaa/b/c/celery_app_inatcance.py  # 启动消费. 相当于你在cmd 敲击了 c
 使用funboost 能轻松配置和操作celery,无视用户的项目目录结构多么复杂和不规则.
 ```
 
-对比celery操作负责不规则目录,让funboost代为操劳自动使用celery,代码大大简化了.
+## 对比celery亲自操作不规则项目目录
+
+相比较比celery亲自操作不规则项目目录,让funboost代为操劳自动使用celery,代码大大简化了.
+
 [https://github.com/ydf0509/celery_demo](https://github.com/ydf0509/celery_demo)
 
 
