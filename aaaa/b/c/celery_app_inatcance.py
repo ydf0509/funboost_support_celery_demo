@@ -8,4 +8,5 @@ from funboost.assist.celery_helper import CeleryHelper
 if __name__ == '__main__':
     add.consume()
     sub.consume()
+    # CeleryHelper.show_celery_app_conf()  # 可以查看celery配置
     CeleryHelper.realy_start_celery_worker()
