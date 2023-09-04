@@ -1,4 +1,13 @@
-## 演示不规范的celery项目目录结构的funboost操作celery的使用：
+## 演示不规范的celery项目目录结构的funboost自动操作celery的使用：
+
+funboost 自动配置和操作celery来执行用户函数,不用用户亲自配置和操作celery.
+
+```
+funboost支持30种消息队列,例如 rabbitmq nsq kafka redis queue.Queue sqlite mysql tcp 等作为消息队列,
+funboost也能支持 dramatiq rq hury celery等分布式函数调度框架直接接管funboost的调度核心
+funboost能支持将celery整体作为 funboost的消息队列,
+使用户既能享受funboost的极简api和配置方式,又能利用celery的调度核心来执行用户函数
+```
 
 ```
 
