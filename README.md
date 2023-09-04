@@ -1,7 +1,5 @@
 ## 演示不规范的celery项目目录结构的funboost操作celery的使用：
 
-
-
 ```
 
 D:\CODES\FUNBOOST_SUPPORT_CELERY_DEMO
@@ -25,28 +23,28 @@ D:\CODES\FUNBOOST_SUPPORT_CELERY_DEMO
 ## 使用funboost 能 轻松自动化配置和操作celery,用户无需手写配置celery.
 
 funboost_config.py  配置 CELERY_BROKER_URL 的值
-![img_4.png](img_4.png)
+[![pPDjy6O.png](https://s1.ax1x.com/2023/09/04/pPDjy6O.png)](https://imgse.com/i/pPDjy6O)
 
 dddd/e/taske.py 使用boost装饰器,并设置 broker_kind=BrokerEnum.CELERY
-![img.png](img.png)
+[![pPDj6XD.png](https://s1.ax1x.com/2023/09/04/pPDj6XD.png)](https://imgse.com/i/pPDj6XD)
 
 dddd/f/dirf4/taskf.py 使用boost装饰器,并设置 broker_kind=BrokerEnum.CELERY
-![img_1.png](img_1.png)
+[![pPDj20H.png](https://s1.ax1x.com/2023/09/04/pPDj20H.png)](https://imgse.com/i/pPDj20H)
 
 
 gggg/publish.py  发布任务,可以使用delay或者push发布任务都可以.
-![img_2.png](img_2.png)
+[![pPDjfAA.png](https://s1.ax1x.com/2023/09/04/pPDjfAA.png)](https://imgse.com/i/pPDjfAA)
 
 
 aaaa/b/c/celery_app_inatcance.py  # 启动消费. 相当于你在cmd 敲击了 celery worker 命令行启动了celery消费
-![img_3.png](img_3.png)
+[![pPDj4ht.png](https://s1.ax1x.com/2023/09/04/pPDj4ht.png)](https://imgse.com/i/pPDj4ht)
 
 
 运行截图:
 
 从运行截图可以看出,funboost+celery 绝对是原汁原味的celery执行核心来执行用户写的函数.
 
-![img_5.png](img_5.png)
+[![pPDjL7j.png](https://s1.ax1x.com/2023/09/04/pPDjL7j.png)](https://imgse.com/i/pPDjL7j)
 
 
 ```
