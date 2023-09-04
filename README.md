@@ -42,6 +42,12 @@ aaaa/b/c/celery_app_inatcance.py  # 启动消费. 相当于你在cmd 敲击了 c
 ![img_3.png](img_3.png)
 
 
+运行截图:
+
+从运行截图可以看出,funboost+celery 绝对是原汁原味的celery执行核心来执行用户写的函数.
+
+![img_5.png](img_5.png)
+
 
 ```
 使用funboost 能轻松配置和操作celery,无视用户的项目目录结构多么复杂和不规则.
