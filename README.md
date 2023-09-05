@@ -11,9 +11,8 @@ funboost能支持将celery整体作为 funboost的消息队列,
 
 不规则的celery目录结果如下,使用funboost操作celery比直接操作celery,代码大大简化
 ```
+
 D:\CODES\FUNBOOST_SUPPORT_CELERY_DEMO
-├─.idea
-│  └─inspectionProfiles
 ├─aaaa
 │  └─b
 │      └─c
@@ -26,7 +25,6 @@ D:\CODES\FUNBOOST_SUPPORT_CELERY_DEMO
 ├─gggg
 └─publish.py
 
-        
 ```
 
 ## 使用funboost 能 轻松自动化配置和操作celery,用户无需手写配置celery.
