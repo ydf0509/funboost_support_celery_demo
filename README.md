@@ -1,7 +1,7 @@
 ## 演示不规范的celery项目目录结构的funboost自动操作celery的使用：
 
 funboost 自动配置和操作celery来执行用户函数,不用用户亲自配置和操作celery.
-
+无论文件夹结构多么复杂乱七八糟,都不需要用户亲自配置celery的includes和task_routes
 ```
 funboost支持30种消息队列,例如 rabbitmq nsq kafka redis queue.Queue sqlite mysql tcp 等作为消息队列,
 funboost也能支持 dramatiq rq hury celery等分布式函数调度框架直接接管funboost的调度核心
@@ -64,6 +64,10 @@ aaaa/b/c/celery_app_inatcance.py  # 启动消费. 相当于你在cmd 敲击了 c
 
 [https://github.com/ydf0509/celery_demo](https://github.com/ydf0509/celery_demo)
 
+
+
+funboost支持celery设置celery的app config和函数app.task的入参,更详细的说明见文档
+[https://funboost.readthedocs.io/zh/latest/articles/c11.html](https://funboost.readthedocs.io/zh/latest/articles/c11.html)
 
 
 
